@@ -39,7 +39,7 @@ public class WebTest {
 
         String actualResult = h2.getText();
 
-        Assert.assertEquals(actualResult,expectedResult);
+        Assert.assertEquals(actualResult, expectedResult);
 
         driver.quit();
     }
