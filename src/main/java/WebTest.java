@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class WebTest {
 
     @Test
-    public void testMenuStartTitle() throws InterruptedException {
+    public void testMenuStartTitle() {
 
         String chromeDriver = "webdriver.chrome.driver";
         String driverPath = "/Users/ksenianehotina/Downloads/chromedriver 2";

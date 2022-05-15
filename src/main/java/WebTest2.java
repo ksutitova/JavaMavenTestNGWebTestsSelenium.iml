@@ -20,7 +20,7 @@ public class WebTest2 {
      */
 
     @Test
-    public void testMenuStart() throws InterruptedException {
+    public void testMenuStartHeading() {
 
         String chromeDriver = "webdriver.chrome.driver";
         String driverPath = "/Users/ksenianehotina/Downloads/chromedriver 2";
@@ -33,8 +33,6 @@ public class WebTest2 {
         driver.get(url);
 
         WebElement heading = driver.findElement(By.xpath("//body/div[@id='wrap']/div[@id='header']/h1"));
-
-        heading.click();
 
         String actualResult = heading.getText();
 
