@@ -9,7 +9,6 @@ public class WebTest7 {
 
     /** TC_11_07 Придумайте и автоматизируйте свой собственный тест кейс на сайте
         http://www.99-bottles-of-beer.net/
-     Считать две первые строчки песни
 
      Шаги:
      1. Открыть вебсайт на странице Start
@@ -34,8 +33,6 @@ public class WebTest7 {
         WebElement subtitleSongLyrics = driver.findElement(By.xpath
                 ("//body/div[@id='wrap']/div[@id='navigation']/ul[@id='submenu']/li/a[@href='lyrics.html']")
         );
-
-        subtitleSongLyrics.getText();
 
         String actualResult = subtitleSongLyrics.getText();
 
